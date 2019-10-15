@@ -8,7 +8,6 @@ public Map<String, List<String>> favoritegenre(Map<String, List<String>> userMap
 				songstogenre.put(song, genre);
 			}
 		}
-		
 		Map<String, Map<String, Integer>> usergenrecount = new HashMap<>();
 		for(String user : userMap.keySet()) {
 			if(!usergenrecount.containsKey(user))
