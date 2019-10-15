@@ -14,4 +14,5 @@
     {
         return  s!=null && ( equals(s,t) || traverse(s.left,t) || traverse(s.right,t));
     }
+	
 }
